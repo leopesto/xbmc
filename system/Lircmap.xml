@@ -367,33 +367,35 @@
 	<remote device="linux-input-layer">
 	<altname>cx23885_remote</altname>
 	<altname>devinput</altname>
+		<start>KEY_SELECT</start>
+		<power>KEY_POWER</power>
+		<mytv>KEY_TV</mytv>
+		<myvideo>KEY_VIDEO</myvideo>
+		<mymusic>KEY_AUDIO</mymusic>
+		<mypictures>KEY_MHP</mypictures>
+		<menu>KEY_EPG</menu>
+		<enter>KEY_RADIO</enter>
 		<left>KEY_LEFT</left>
 		<right>KEY_RIGHT</right>
 		<up>KEY_UP</up>
 		<down>KEY_DOWN</down>
 		<select>KEY_ENTER</select>
-		<start>KEY_SELECT</start>
 		<back>KEY_EXIT</back>
-		<record>KEY_RECORD</record>
-		<play>KEY_PLAY</play>
-		<pause>KEY_PAUSE</pause>
-		<stop>KEY_STOP</stop>
-		<forward>KEY_FASTFORWARD</forward>
-		<reverse>KEY_REWIND</reverse>
+		<info>KEY_MENU</info>
 		<volumeplus>KEY_VOLUMEUP</volumeplus>
 		<volumeminus>KEY_VOLUMEDOWN</volumeminus>
 		<channelplus>KEY_CHANNELUP</channelplus>
 		<channelminus>KEY_CHANNELDOWN</channelminus>
+		<title>KEY_PREVIOUS</title>
+		<mute>KEY_MUTE</mute>
+		<record>KEY_RECORD</record>
+		<stop>KEY_STOP</stop>
+		<play>KEY_PLAY</play>
+		<pause>KEY_PAUSE</pause>
+		<forward>KEY_FASTFORWARD</forward>
+		<reverse>KEY_REWIND</reverse>
 		<skipplus>KEY_NEXTSONG</skipplus>
 		<skipminus>KEY_PREVIOUSSONG</skipminus>
-		<title>KEY_TEXT</title>
-		<subtitle>KEY_SUBTITLE</subtitle>
-		<mute>KEY_MUTE</mute>
-		<power>KEY_POWER</power>
-		<myvideo>KEY_VIDEO</myvideo>
-		<mymusic>KEY_AUDIO</mymusic>
-		<mypictures>KEY_MHP</mypictures>
-		<mytv>KEY_TV</mytv>
 		<one>KEY_1</one>
 		<two>KEY_2</two>
 		<three>KEY_3</three>
@@ -404,6 +406,8 @@
 		<eight>KEY_8</eight>
 		<nine>KEY_9</nine>
 		<zero>KEY_0</zero>
+		<hash>KEY_TEXT</hash>
+		<subtitle>KEY_SUBTITLE</subtitle>
 		<red>KEY_RED</red>
 		<green>KEY_GREEN</green>
 		<yellow>KEY_YELLOW</yellow>
