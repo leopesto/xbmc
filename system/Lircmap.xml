@@ -406,7 +406,7 @@
 		<eight>KEY_8</eight>
 		<nine>KEY_9</nine>
 		<zero>KEY_0</zero>
-		<hash>KEY_TEXT</hash>
+		<lyrics>KEY_TEXT</lyrics>
 		<subtitle>KEY_SUBTITLE</subtitle>
 		<red>KEY_RED</red>
 		<green>KEY_GREEN</green>
